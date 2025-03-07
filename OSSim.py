@@ -6,7 +6,7 @@ import statistics
 
 # Gabriel Hidalgo – 24939 
 
-# Juan Ordoñez - 24880 
+# Oscar Rompich - 24880 
 
 # Fecha: 26/08/2021
 
@@ -17,7 +17,7 @@ import statistics
 random.seed(100)  # Semilla 
 env = simpy.Environment() # Entorno de simulación
 velocidad = 3 # Velocidad de procesamiento de la CPU
-capacidad_ram=100 # Capacidad de la memoria RAM
+capacidad_ram=200 # Capacidad de la memoria RAM
 procesadores = 1 # Cantidad de procesadores
 
 ram = simpy.Container(env, init=capacidad_ram, capacity=capacidad_ram) 
